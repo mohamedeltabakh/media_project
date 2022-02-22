@@ -1,0 +1,15 @@
+h1{
+  color: rgb(170, 21, 91);
+  text-align: center;
+}
+
+.column {
+  float: left;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
